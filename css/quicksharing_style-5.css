@@ -1,0 +1,132 @@
+#social {
+  margin: 20px 10px;
+  text-align: center;
+}
+
+.smGlobalBtn { /* global button class */
+    display: inline-block;
+    cursor: pointer;
+    width: 100px;
+    height: 36px;
+    box-shadow: 0 2px 2px #999;
+    padding: 0px;
+    text-decoration: none !important;
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 2em;
+    margin-left: 10px;
+
+
+}
+
+/* facebook button class*/
+.facebookBtn{
+    background: #4060A5;
+}
+
+.facebookBtn:before{ /* use :before to add the relevant icons */
+    font-family: "FontAwesome";
+    content: "Facebook"; /* add facebook icon */
+    color: #fff;
+}
+
+
+/* twitter button class*/
+.twitterBtn{
+    background: #00ABE3;
+}
+
+.twitterBtn:before{
+      font-family: "FontAwesome";
+      content: "Twitter"; /* add twitter icon */
+      color: #fff;
+      
+}
+
+
+/* google plus button class*/
+.googleplusBtn{
+    background: #e64522;
+}
+
+.googleplusBtn:before{
+      font-family: "FontAwesome";
+      content: "Google+"; /* add googleplus icon */
+      color: #fff;
+}
+
+
+/* linkedin button class*/
+.linkedinBtn{
+    background: #0094BC;
+}
+
+.linkedinBtn:before{
+      font-family: "FontAwesome";
+      content: "LinkedIn"; /* add linkedin icon */
+      color: #fff;
+}
+
+
+/* xing button class*/
+.xingBtn{
+    background: #006667;
+}
+
+.xingBtn:before{
+      font-family: "FontAwesome";
+      content: "Xing"; /* add linkedin icon */
+      color: #fff;
+}
+
+
+/* whatsapp button class*/
+.whatsappBtn{
+    background: #43d855;
+}
+
+.whatsappBtn:before{
+      font-family: "FontAwesome";
+      content: "WhatsApp"; /* add linkedin icon */
+      color: #fff;
+}
+
+
+/* reddit button class*/
+.redditBtn{
+    background: #000000;
+}
+
+.redditBtn:before{
+      font-family: "FontAwesome";
+      content: "Reddit"; /* add linkedin icon */
+      color: #fff;
+}
+
+
+
+
+/* reddit button class*/
+.xing2Btn{
+    background: #fff;
+}
+
+.xing2Btn:before{
+      font-family: "FontAwesome";
+      content: "Pinterest"; /* add linkedin icon */
+      color: #c8232c;
+}
+
+
+/* mastodon button class*/
+.mstd2Btn{
+    background: #6364ff;
+}
+
+.mstd2Btn:before{
+      font-family: "FontAwesome";
+      content: "Mastodon"; /* add mastodon icon */
+      color: #fff;
+}
+

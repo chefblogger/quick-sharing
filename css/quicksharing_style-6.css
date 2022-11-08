@@ -1,0 +1,204 @@
+#social {
+  margin: 20px 10px;
+  text-align: center;
+}
+
+.smGlobalBtn { /* global button class */
+    display: inline-block;
+    cursor: pointer;
+  
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 2em;
+    border-radius: 27px;
+    margin-left: 10px;
+    margin-top: 10px;
+    -moz-border-radius:27px;
+    -webkit-border-radius:27px;
+    
+
+        width: 60px;
+        height: 60px;
+        border: 1px solid #000000;
+        text-align: center;
+        margin: 5px;
+        border-radius: 50%;
+        transition: 500ms;
+    font-size: 25px!important;
+    
+}
+
+
+
+/* facebook button class*/
+.facebookBtn{
+    background: #4060A5;
+   
+}
+
+.facebookBtn:before{ /* use :before to add the relevant icons */
+    font-family: "FontAwesome";
+    content: "\f09a"; /* add facebook icon */
+    color: #fff;
+   
+}
+
+.facebookBtn:hover{
+    color: #4060A5 !important;
+    background: #000;
+    border-color: #000000; /* change the border color on mouse hover */
+    box-shadow: 0 0 20px red;
+}
+
+/* twitter button class*/
+.twitterBtn{
+    background: #00ABE3;
+}
+
+.twitterBtn:before{
+      font-family: "FontAwesome";
+      content: "\f099"; /* add twitter icon */
+      color: #fff;
+      
+}
+
+.twitterBtn:hover{
+      color: #00ABE3;
+      background: #000;
+      border-color: #000000; /* change the border color on mouse hover */
+    box-shadow: 0 0 20px red;
+}
+
+
+/* linkedin button class*/
+.linkedinBtn{
+    background: #0094BC;
+}
+
+.linkedinBtn:before{
+      font-family: "FontAwesome";
+      content: "\f0e1"; /* add linkedin icon */
+      color: #fff;
+}
+
+.linkedinBtn:hover{
+      color: #0094BC;
+      background: #000;
+      border-color: #000000; /* change the border color on mouse hover */
+    box-shadow: 0 0 20px red;
+}
+
+/* xing button class*/
+.xingBtn{
+    background: #006667;
+}
+
+.xingBtn:before{
+      font-family: "FontAwesome";
+      content: "\f168"; /* add linkedin icon */
+      color: #fff;
+}
+
+.xingBtn:hover{
+      color: #006667;
+      background: #000;
+      border-color: #000000; /* change the border color on mouse hover */
+    box-shadow: 0 0 20px red;
+}
+
+/* whatsapp button class*/
+.whatsappBtn{
+    background: #43d855;
+}
+
+.whatsappBtn:before{
+      font-family: "FontAwesome";
+      content: "\f232"; /* add linkedin icon */
+      color: #fff;
+}
+
+.whatsappBtn:hover{
+      color: #43d855;
+      background: #000;
+      border-color: #000000; /* change the border color on mouse hover */
+    box-shadow: 0 0 20px red;
+}
+
+/* reddit button class*/
+.redditBtn{
+    background: #000000;
+}
+
+.redditBtn:before{
+      font-family: "FontAwesome";
+      content: "\f281"; /* add linkedin icon */
+      color: #fff;
+}
+
+.redditBtn:hover{
+      color: #000000;
+      background: #999;
+      border-color: #000000; /* change the border color on mouse hover */
+    box-shadow: 0 0 20px red;
+}
+
+/* pinterest button class*/
+.pinterestBtn{
+    background: #c8232c;
+}
+
+.pinterestBtn:before{
+      font-family: "FontAwesome";
+      content: "\f0d2"; /* add linkedin icon */
+      color: #c8232c;
+}
+
+.pinterestBtn:hover{
+      color: #008000;
+      background: #999;
+      border-color: #000000; /* change the border color on mouse hover */
+    box-shadow: 0 0 20px red;
+}
+
+
+
+/* reddit button class*/
+.xing2Btn{
+    background: #fff;
+}
+
+.xing2Btn:before{
+      font-family: "FontAwesome";
+      content: "\f0d2"; /* add linkedin icon */
+      color: #c8232c;
+}
+
+.xing2Btn:hover{
+      color: #006667;
+      background: #000;
+      border-color: #000000; /* change the border color on mouse hover */
+    box-shadow: 0 0 20px red;
+}
+
+/* mastodon button class*/
+.mstd2Btn{
+    background: #6364ff;
+}
+
+.mstd2Btn:before{
+      font-family: "FontAwesome";
+      content: "\f4f6"; /* add mastodon icon */
+      color: #fff;
+}
+
+.mstd2Btn:hover{
+      color: #006667;
+      background: #000;
+      border-color: #000000; /* change the border color on mouse hover */
+    box-shadow: 0 0 20px red;
+}
+

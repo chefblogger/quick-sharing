@@ -1,0 +1,195 @@
+#social {
+  margin: 20px 10px;
+  text-align: center;
+}
+
+.smGlobalBtn { /* global button class */
+    display: inline-block;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    box-shadow: 0 2px 2px #999;
+    padding: 0px;
+    text-decoration: none !important;
+    text-align: center;
+    color: #fff;
+    font-size: 10px;
+    font-weight: normal;
+    line-height: 2em;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+
+/* facebook button class*/
+.facebookBtn{
+    background: #4060A5;
+}
+
+.facebookBtn:before{ /* use :before to add the relevant icons */
+    font-family: "FontAwesome";
+    content: "\f09a"; /* add facebook icon */
+    color: #fff;
+}
+
+.facebookBtn:hover{
+    color: #4060A5 !important;
+    background: #000;
+    border-color: #4060A5; /* change the border color on mouse hover */
+}
+
+/* twitter button class*/
+.twitterBtn{
+    background: #00ABE3;
+}
+
+.twitterBtn:before{
+      font-family: "FontAwesome";
+      content: "\f099"; /* add twitter icon */
+      color: #fff;
+      
+}
+
+.twitterBtn:hover{
+      color: #00ABE3;
+      background: #000;
+      border-color: #00ABE3;
+}
+
+/* google plus button class*/
+.googleplusBtn{
+    background: #e64522;
+}
+
+.googleplusBtn:before{
+      font-family: "FontAwesome";
+      content: "\f0d5"; /* add googleplus icon */
+      color: #fff;
+}
+
+.googleplusBtn:hover{
+      color: #e64522;
+      background: #000;
+      border-color: #e64522;
+}
+
+/* linkedin button class*/
+.linkedinBtn{
+    background: #0094BC;
+}
+
+.linkedinBtn:before{
+      font-family: "FontAwesome";
+      content: "\f0e1"; /* add linkedin icon */
+      color: #fff;
+}
+
+.linkedinBtn:hover{
+      color: #0094BC;
+      background: #000;
+      border-color: #0094BC;
+}
+
+/* xing button class*/
+.xingBtn{
+    background: #006667;
+}
+
+.xingBtn:before{
+      font-family: "FontAwesome";
+      content: "\f168"; /* add linkedin icon */
+      color: #fff;
+}
+
+.xingBtn:hover{
+      color: #006667;
+      background: #000;
+      border-color: #006667;
+}
+
+/* whatsapp button class*/
+.whatsappBtn{
+    background: #43d855;
+}
+
+.whatsappBtn:before{
+      font-family: "FontAwesome";
+      content: "\f232"; /* add linkedin icon */
+      color: #fff;
+}
+
+.whatsappBtn:hover{
+      color: #43d855;
+      background: #000;
+      border-color: #43d855;
+}
+
+/* reddit button class*/
+.redditBtn{
+    background: #000000;
+}
+
+.redditBtn:before{
+      font-family: "FontAwesome";
+      content: "\f281"; /* add linkedin icon */
+      color: #fff;
+}
+
+.redditBtn:hover{
+      color: #000000;
+      background: #999;
+      border-color: #000000;
+}
+
+/* pinterest button class*/
+.pinterestBtn{
+    background: #c8232c;
+}
+
+.pinterestBtn:before{
+      font-family: "FontAwesome";
+      content: "\f0d2"; /* add linkedin icon */
+      color: #c8232c;
+}
+
+.pinterestBtn:hover{
+      color: #008000;
+      background: #999;
+      border-color: #000000;
+}
+
+
+
+/* reddit button class*/
+.xing2Btn{
+    background: #fff;
+}
+
+.xing2Btn:before{
+      font-family: "FontAwesome";
+      content: "\f0d2"; /* add linkedin icon */
+      color: #c8232c;
+}
+
+.xing2Btn:hover{
+      color: #006667;
+      background: #000;
+      border-color: #006667;
+}
+
+/* mastodon button class*/
+.mstd2Btn{
+      background: #6364ff;
+  }
+  
+  .mstd2Btn:before{
+        font-family: "FontAwesome";
+        content: "\f4f6"; /* add mastodon icon */
+        color: #fff;
+  }
+  
+  .mstd2Btn:hover{
+        color: #006667;
+        background: #000;
+        border-color: #006667;
+  }
